@@ -1,0 +1,33 @@
+/* 메뉴에서 선택되었을때의 css */
+.menuTable .selected{
+    background-color: black !important; 
+}
+/* 메뉴 짝, 홀수에 따라 색상 변경 */
+.menuTable tr:nth-child(even){
+    background-color: lightgray;
+    height: 30;
+}
+.menuTable tr:nth-child(odd){
+    background-color: lightslategray;
+    height: 30;
+}
+.menuTable table{
+    height: 100%;
+    width: 10%;
+    background-color: lightgrey;
+}
+.menuTable tr{
+    padding: 0;
+    color: white;
+    height: 15%;
+    text-align: center;
+    font-size: large;
+}
+/* angularJS 애니메이션 적용 */
+.menuTable.ng-hide {
+    opacity: 0;
+}
+.menuTable.ng-hide-add,
+.menuTable.ng-hide-remove {
+    transition: all linear 0.5s;
+}

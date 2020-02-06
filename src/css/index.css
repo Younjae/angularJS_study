@@ -1,0 +1,10 @@
+menuDirective {
+    float: left;
+    height: 75%;
+}
+tabDirective{
+    height: 15%;
+}
+body{
+    height: 100%;
+}
